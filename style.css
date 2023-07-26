@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+#addbtn {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 10px;
+}
+
+#main {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+}
+
+.container {
+    height: 70vh;
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    overflow: hidden;
+}
+
+.toolesBar {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.toolesBar i {
+    padding-right: 10px;
+}
+
+#textBox {
+    height: 90%;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+
+.forMessageStyle {
+    min-height: 8vh;
+    min-width: 14vw;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
